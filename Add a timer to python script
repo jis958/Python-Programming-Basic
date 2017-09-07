@@ -1,0 +1,8 @@
+import time
+
+start_time = time.time()
+....
+....
+stop_time = time.time()
+time_elapsed = stop_time - start_time
+print('It took %s' %time_elapsed + ' seconds to run this script!')
